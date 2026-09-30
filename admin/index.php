@@ -1,8 +1,6 @@
 <?php
-// Masukkan semakan session login & koneksi database anda di sini jika ada
 require_once "../config/database.php";
 
-// Contoh query jumlah produk & kategori (sesuai dengan database anda)
 $query_produk = mysqli_query($conn, "SELECT COUNT(*) as total FROM produk");
 $total_produk = mysqli_fetch_assoc($query_produk)['total'] ?? 0;
 
@@ -18,21 +16,17 @@ $total_kategori = mysqli_fetch_assoc($query_kategori)['total'] ?? 0;
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard Admin - Sweet Cake</title>
 
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&family=Sacramento&display=swap" rel="stylesheet">
-    
-    <!-- Font Awesome Icons -->
+ 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-    <!-- CSS Proyek Anda -->
     <link rel="stylesheet" href="../assets/style.css?v=<?= time(); ?>">
 </head>
 
 <body class="admin-body">
 
-    <!-- NAVIGATION BAR ADMIN -->
     <nav class="admin-navbar">
         <div class="admin-nav-container">
             <a href="index.php" class="admin-brand">Sweet Cake <span>Admin</span></a>
@@ -45,16 +39,13 @@ $total_kategori = mysqli_fetch_assoc($query_kategori)['total'] ?? 0;
         </div>
     </nav>
 
-    <!-- CONTAINER UTAMA DASHBOARD -->
     <main class="admin-container">
         
-        <!-- HEADER DASHBOARD -->
         <div class="admin-header">
             <h2>Dashboard Admin</h2>
             <p>Selamat datang kembali, <strong>Administrator</strong>!</p>
         </div>
 
-        <!-- STATS CARDS (RINGKASAN SIKAP/KAD) -->
         <div class="admin-stats-grid">
             <div class="stat-card">
                 <div class="stat-icon"><i class="fas fa-box-open"></i></div>
@@ -81,7 +72,6 @@ $total_kategori = mysqli_fetch_assoc($query_kategori)['total'] ?? 0;
             </div>
         </div>
 
-        <!-- SEKSI MANAJEMEN/MENU PENGELOLAAN -->
         <div class="admin-content-card">
             <div class="content-card-header">
                 <h3><i class="fas fa-tasks"></i> Pengurusan Produk</h3>

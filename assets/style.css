@@ -329,7 +329,6 @@ body {
     transform: translateY(-3px);
 }
 
-/* Footer Bottom / Copyright */
 .footer-bottom {
     max-width: 1100px;
     margin: 40px auto 0 auto;
@@ -340,7 +339,6 @@ body {
     color: #a89488;
 }
 
-/* --- TEMA LOGIN ADMIN --- */
 .login-body {
     background-color: #e8ded2;
     min-height: 100vh;
@@ -452,7 +450,6 @@ body {
     text-decoration: underline;
 }
 
-/* --- TEMA DASHBOARD ADMIN --- */
 .admin-body {
     background-color: #e8ded2;
     font-family: 'Poppins', sans-serif;
@@ -460,7 +457,6 @@ body {
     min-height: 100vh;
 }
 
-/* Navbar Admin */
 .admin-navbar {
     background-color: #fdfbf7;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
@@ -532,7 +528,6 @@ body {
     background-color: #842f2f;
 }
 
-/* Container Utama Admin */
 .admin-container {
     max-width: 1100px;
     margin: 30px auto;
@@ -604,7 +599,6 @@ body {
     color: #2e7d32;
 }
 
-/* Content Card */
 .admin-content-card {
     background: #fdfbf7;
     border-radius: 25px;
@@ -830,4 +824,23 @@ table a[href*="hapus"]:hover {
     background-color: #724734;
     color: #ffffff;
     border-color: #724734;
+}
+
+.nav-menu a:first-child,
+.nav-menu a.active {
+    background: transparent !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+.site-footer a,
+.footer-col a,
+.footer-col a.active,
+.footer-col li:first-child a {
+    background: transparent !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    color: #ffffff !important;
 }
