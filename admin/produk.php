@@ -29,7 +29,7 @@ $query_kategori = mysqli_query($conn, "SELECT DISTINCT kategori FROM produk WHER
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kelola Produk - Sweet Cake Admin</title>
+    <title>Kelola Produk - Made by Ibu Admin</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

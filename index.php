@@ -33,7 +33,7 @@ include 'includes/header.php';
 <section class="katalog-section" style="margin-top: 40px; padding: 40px 20px;">
     
     <h2 style="text-align: center; font-family: 'Playfair Display', serif; font-size: 32px; color: #3b2319; margin-bottom: 30px; text-transform: lowercase;">
-        katalog produk
+        Katalog Produk
     </h2>
 
     <div class="product-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; max-width: 1000px; margin: 0 auto;">
@@ -72,7 +72,7 @@ include 'includes/header.php';
 
     <div style="max-width: 1000px; margin: 20px auto 0 auto; text-align: right;">
         <a href="produk.php" style="font-family: 'Poppins', sans-serif; font-size: 15px; font-weight: 600; color: #3b2319; text-decoration: underline; text-transform: lowercase;">
-            selengkapnya &rarr;
+            Selengkapnya &rarr;
         </a>
     </div>
 

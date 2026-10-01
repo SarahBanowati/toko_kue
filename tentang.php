@@ -6,7 +6,7 @@
     </h1>
     
     <p style="font-family: 'Poppins', sans-serif; font-size: 16px; color: #5a3828; line-height: 1.8; margin-bottom: 40px;">
-        <strong>Made by Ibu</strong> adalah usaha kuliner rumahan (*home bakery*) yang menyajikan aneka kue, donat, dan pastry buatan tangan (*artisan*) dengan kehangatan resep istimewa. Kami percaya bahwa setiap momen spesial berawal dari hidangan manis yang dibuat dengan ketulusan dan bahan berkualitas tinggi.
+        <strong>Made by Ibu</strong> adalah usaha home bakery yang menyajikan aneka kue, donat, dan pastry buatan tangan dengan kehangatan resep istimewa. Kami percaya bahwa setiap momen spesial berawal dari hidangan manis yang dibuat dengan ketulusan dan bahan berkualitas tinggi.
     </p>
 
     <div class="about-card-container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; text-align: left;">

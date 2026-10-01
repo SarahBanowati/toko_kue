@@ -6,7 +6,6 @@ $query = mysqli_query($conn, "SELECT * FROM produk ORDER BY id DESC");
 include 'includes/header.php'; 
 ?>
 
-<!-- KONTEN DAFTAR PRODUK -->
 <section class="products-section" style="padding: 40px 20px; max-width: 1200px; margin: 0 auto;">
     <div class="container main-content">
         <h2 style="font-family: 'Playfair Display', serif; font-size: 32px; color: #3b2319; margin-bottom: 25px; text-align: center;">Daftar Produk</h2>

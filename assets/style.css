@@ -1,4 +1,4 @@
-/* Reset Basic */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +11,6 @@ body {
     padding: 20px;
 }
 
-/* Outer Card Container (Header Melengkung) */
 .hero-card-container {
     width: 100%;
     max-width: 1100px;
@@ -27,7 +26,6 @@ body {
         radial-gradient(circle at 20% 20%, rgba(245, 230, 215, 0.5) 0%, transparent 40%);
 }
 
-/* Navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -70,7 +68,6 @@ body {
     font-size: 13px;
 }
 
-/* Hero Section */
 .hero-banner {
     display: flex;
     align-items: center;
@@ -141,7 +138,6 @@ body {
     filter: drop-shadow(0 20px 20px rgba(0, 0, 0, 0.15));
 }
 
-/* Container Produk */
 .container.main-content {
     max-width: 1100px;
     margin: 0 auto;
@@ -204,22 +200,20 @@ body {
     font-size: 13px;
 }
 
-/* Menjamin Tampilan Vertikal (Atas ke Bawah) */
 body {
-    display: block; /* Memastikan aliran halaman dari atas ke bawah */
+    display: block; 
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
-/* Memastikan Hero Banner tidak bertabrakan */
+
 .hero-card-container {
     width: 100%;
-    margin-bottom: 50px; /* Jarak antara header dan seksi produk */
+    margin-bottom: 50px; 
     clear: both;
 }
 
-/* Seksi Produk Terbaru */
 .products-section {
     width: 100%;
     clear: both;
@@ -232,13 +226,12 @@ body {
     margin-bottom: 25px;
 }
 
-/* --- FOOTER STYLES --- */
 .site-footer {
-    background-color: #3b2319; /* Cokelat tua aesthetic */
+    background-color: #3b2319; 
     color: #fdfbf7;
     margin-top: 60px;
     padding: 50px 20px 20px 20px;
-    border-radius: 30px 30px 0 0; /* Lengkungan halus di sudut atas */
+    border-radius: 30px 30px 0 0; 
 }
 
 .footer-container {
@@ -303,7 +296,6 @@ body {
     color: #c49a82;
 }
 
-/* Social Media Icons */
 .social-links {
     display: flex;
     gap: 12px;
@@ -549,7 +541,6 @@ body {
     color: #6a5a52;
 }
 
-/* Stats Card Grid */
 .admin-stats-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
